@@ -4,117 +4,84 @@ body{
 }
 
 .head{
-    background: #ffffff;
-    text-decoration: none;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-bottom: 5px;
+    background: #fa63fa;
+    color: #fefefe;
+    padding: 5px 50px;
     height: 60px;
 }
 
-.logo{
-    display: block;
-    float: left;
-    height: 20px;
-    width: 200px;
-}
-
-.logo a {
-    text-decoration: none;
-    font-size: 40px;
-}
-
-
-.main_container{
-    background: #e3dfdb;
-    text-align: center;
-    align-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-family: "proxima-nova","helvetica","arial","san
-}
-
-#welcome{
-    text-decoration: underline;
-}
-
-#team_img{
+.slide {
+    position: relative !important;
     width: 100%;
+    height: 500px;
 }
 
-.statement{
-    text-align: left;
-    background: #ffffff;
-    padding: 30px;
-    word-spacing: 5px;
-    margin-top: 20px;
-}
 
 .services{
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    width: 100%
-}
-
-#s1{
-    background: #F0FFFF;
-    margin: 10px;
-    width: 1500px;
-
-}
-#s2{
-    background: #FFFAFA;
-    margin: 10px;
-    width: 1500px;
-}
-#s3{
-    background: #F0FFFF;
-    margin: 10px;
-    width: 1500px;
-}
-#s4{
-    background:  #FFFAFA;
-    margin: 10px;
-    width: 1500px;
-}
-
-.team_section{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    background: #ffffff;
-
-}
-
-#team_heading{
-    text-align: left;
-}
-
-#t1, #t2, #t3, #t4, #t5{
-    margin: 10px;
-    width: 1500px;
-}
-
-#team_img{
-    border: solid 1px;
-    border-radius: 40%;
-    background-position: center center;
-}
-
-.footer{
-    display: flex;
-    background-color: #231f20;
-    height: 50px;
-    padding-top: 5px;
-    padding-right: 30px;
-
+    justify-content: center;
+    margin: 70px 0 80px;
+    flex-wrap: wrap;
     
 }
 
-#ico{
-    margin: 20px;
+.services-end {
+    min-height: 90vh;
+    border-bottom: 0.1px solid #cac7c7;
+    box-shadow: 2px 2px #ece5e5;
 }
+
+.cardFormat {
+    width: 16rem;
+    padding: 0;
+    height: 25rem;
+    text-align: center;
+    box-shadow: 3px 3px 4px #ecdddd;
+}
+
+.cardFormat p {
+    font-size: 12px;
+}
+
+#welcome{
+    font-size: 45px;
+}
+.divide {
+    min-height: 70vh;
+    border-bottom: 0.1px solid #cac7c7;
+    box-shadow: 2px 2px #ece5e5;
+
+}
+
+
+.statement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: auto;
+}
+
+.kodehauz_team {
+    background-position-x: -100px;
+}
+
+.backdrop {
+    background-attachment: fixed;
+    min-height: 91vh;
+    background-image: url(../images/slider-bg-1.jpg);
+    background-position-x: -350px;
+}
+
+.cover {
+    color: #fefefe;
+    /* background-color: #e97e40; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    height: 60px;
+    border-radius: 6px;
+}
+
 
